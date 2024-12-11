@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="add_to_db.php" method="post" id="form_mem">
+        <input type="text" name="nom" placeholder="votre nom" maxlength="50"><br>
+        <input type="text" name="prenom" placeholder="votre prénom" maxlength="50"><br>
+        <input type="email" name="email" placeholder="votre email" maxlength="100"><br>
+        <input type="tel" name="telephone" placeholder="votre téléphone" maxlength="50"><br>
+        <button type="submit">submit</button>
+        <a href="aff_db.php">Afficher les donées</a>
+    </form><br>
+
+    <form action="add_to_db_act.php" method="post" id="form_act">
+        <input type="text" name="nom_act" ><br>
+        <input type="text" name="desc_act"><br>
+        <input type="date" name="date_debut"><br>
+        <input type="date" name="date_fin"><br>
+        <button type="submit">submit</button>
+        <a href="aff_db_act.php">Afficher les donées</a>
+    </form><br>
+</body>
+</html>
