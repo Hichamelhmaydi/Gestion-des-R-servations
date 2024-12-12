@@ -10,6 +10,17 @@ CREATE TABLE activite (
     capacite INT  NOT NULL                                
 );
 
+ALTER Table activite
+ADD COLUMN capacite;
+
+ALTER Table activite
+DROP COLUMN disponibilite;
+
+
+ALTER TABLE reservations MODIFY ID_membres INT ;
+ALTER TABLE reservations MODIFY ID_activite INT ;
+ALTER TABLE reservations DROP date_reservation ;
+ALTER TABLE reservations DROP statu ;
 
 CREATE TABLE membres (
     ID_membres INT AUTO_INCREMENT PRIMARY KEY,  
