@@ -37,3 +37,15 @@ CREATE TABLE reservations (
     FOREIGN KEY (ID_activite) REFERENCES activite(ID_activite),
     FOREIGN KEY (ID_membres) REFERENCES membres(ID_membres)
 );
+
+DROP Table reservations;
+CREATE TABLE reservations (
+    ID_reservations INT AUTO_INCREMENT PRIMARY KEY,
+    ID_activite INT NOT NULL,
+    ID_membres INT NOT NULL,
+    date_reservation DATETIME NOT NULL,
+    FOREIGN KEY (ID_activite) REFERENCES activite(ID_activite),
+    FOREIGN KEY (ID_membres) REFERENCES membres(ID_membres)
+);
+
+
