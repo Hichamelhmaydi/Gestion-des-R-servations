@@ -11,10 +11,7 @@ CREATE TABLE activite (
 );
 
 ALTER Table activite
-ADD COLUMN capacite;
-
-ALTER Table activite
-DROP COLUMN disponibilite;
+ADD COLUMN disponibilite TINYINT;
 
 
 ALTER TABLE reservations MODIFY ID_membres INT ;

@@ -9,6 +9,7 @@ echo "<th>nom d'activité</th>";
 echo "<th>la description d'activité</th>";
 echo "<th>date début</th>";
 echo "<th>date fin</th>";
+echo "<th>disponibilite</th>";
 while($row=mysqli_fetch_array($query)){
     echo "<tr>";
        echo "<td>".$row["ID_activite"]."</td>";
@@ -16,6 +17,7 @@ while($row=mysqli_fetch_array($query)){
        echo "<td>".$row["descr"]."</td>";
        echo "<td>".$row["date_debut"]."</td>";
        echo "<td>".$row["date_fin"]."</td>";
+       echo "<td>".$row["disponibilite"]."</td>";
     echo "</tr>";
 }
 echo"</table>";
