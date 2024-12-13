@@ -1,0 +1,44 @@
+.tabl_mem {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabl_mem th, .tabl_mem td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.tabl_mem th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabl_mem tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabl_mem tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabl_mem td {
+    color: #333;
+    font-size: 14px;
+}
+
+
+
+.tabl_mem {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
